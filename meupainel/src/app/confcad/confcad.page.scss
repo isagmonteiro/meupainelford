@@ -1,0 +1,51 @@
+.container{
+    font-family: Ubuntu;
+    font-style:normal;
+    font-variant: normal;
+    font-weight: 400;
+    color: #003478;
+    line-height: 0.4;
+    text-align: center;
+
+}
+  
+  .container2{
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top:50px;
+  }
+
+#p2{
+    margin-top:50px;
+}
+ion-content{
+    --ion-background-color: #f4f5f8;
+    --ion-text-color: #003478;
+}
+
+.button1{
+    font-family: Ubuntu;
+    font-style:normal;
+    font-variant: normal;
+    font-weight: 400;
+    color: #f4f5f8;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+
+#tollbar{
+    --background: #003478;
+    --color: #f4f5f8 ;
+    font-family: Ubuntu;
+}
+
+#p1{
+    margin-left: 70px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+

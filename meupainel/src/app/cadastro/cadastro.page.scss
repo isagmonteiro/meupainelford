@@ -1,0 +1,104 @@
+/* DOES NOT WORK - not specific enough */
+ion-loading {
+  color: green;
+}
+
+/* Works - pass "my-custom-class" in cssClass to increase specificity */
+.my-custom-class {
+  color: green;
+}
+
+.my-custom-class {
+  --background: #222;
+  --spinner-color: #fff;
+
+  color: #fff;
+}
+
+.container{
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;;
+  font-style:normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-top:20px;
+  color: #003478;
+}
+
+.container2{
+  font-weight: bold;
+}
+
+.container3{
+  font-size:18px;
+}
+
+ion-content{
+    --ion-background-color: #f4f5f8;
+    --ion-text-color: #003478;
+      font-size: 18px;
+}
+
+.labels{
+  font-family: Ubuntu;
+  font-style:normal;
+  font-variant: normal;
+  font-size: 15px; 
+  color:#003478;
+  }
+
+
+
+.button1{
+  font-family: Ubuntu;
+  font-style:normal;
+  font-variant: normal;
+  font-weight: 400;
+  color: #f4f5f8;
+  height: 40px;
+  width: 160px;
+  text-align: center;
+  margin-left: 55px;
+ 
+}
+
+.button2:hover{
+color:red;
+ 
+}
+
+
+.euamobebeu{
+  font-size: 15px;
+  
+}
+
+
+#tollbar{
+  --background: #003478;
+  --color: #f4f5f8 ;
+  font-family: Ubuntu;
+}
+
+#p1{
+  margin-left: 0px;
+  font-size: 20px;
+  margin-top:10px;
+}
+
+ion-col{
+  height:50px;
+}
+
+
+
+ion-select {
+  /* Applies to the value and placeholder color */
+  color: #003478;
+  --ion-background-color: #f4f5f8;
+  --ion-text-color: #003478;
+}
+
+ion-alert{
+  --background: #f4f5f8;
+}

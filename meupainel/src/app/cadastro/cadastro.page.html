@@ -1,0 +1,76 @@
+<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+<meta charset="UTF-8">
+<ion-header>
+  <ion-toolbar id='tollbar'>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div>
+            <ion-buttons slot="start">
+              <ion-back-button id='backb'
+              text=""
+              icon="arrow-back-outline"
+              size='small'
+              color='light'>
+            </ion-back-button>
+            </ion-buttons> 
+          </div>
+        </ion-col>
+        <ion-col>
+          <div>
+            <p id='p1'>Cadastro</p>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div>
+            
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+  </ion-toolbar>
+  </ion-header>
+
+
+
+<ion-content>
+<h2 class='container container2'>Falta Pouco! </h2>
+<p class='container container3'>Preencha todos os campos com seus dados para ter acesso ao seu painel: </p>
+<ion-item  class='labelsenha1'>
+  <ion-label position="floating" class='labels'>Nome Completo</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item  class='labelsenha1'>
+    <ion-label position="floating" class='labels'>E-mail</ion-label>
+    <ion-input></ion-input>
+</ion-item>
+
+<ion-item  class='labelsenha1'>
+  <ion-label position="floating" class='labels'>CPF</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+<ion-item  class='labelsenha'>
+  <ion-label position="floating" class='labels'>Senha</ion-label>
+  <ion-input type='password'></ion-input>
+</ion-item>
+<ion-item >
+  <ion-label class ='euamobebeu'>Meu(s) Carro(s)</ion-label>
+  <ion-select multiple="true" cancelText="Cancelar" okText="Ok" >
+    <ion-select-option value="KA">KA</ion-select-option>
+    <ion-select-option value="EcoSport">EcoSport</ion-select-option>
+    <ion-select-option value="Edge">Edge</ion-select-option>
+    <ion-select-option value="Territory">Territory</ion-select-option>
+  </ion-select>
+</ion-item>
+
+<br>
+<br>
+<ion-button class='button1' expand="block" color='ford' size='medium' (click)="confcad()" >Cadastrar</ion-button>
+
+
+
+
+</ion-content>

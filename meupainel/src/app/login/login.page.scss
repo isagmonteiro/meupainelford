@@ -1,0 +1,57 @@
+.container{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-style:normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top:20px;
+    color: #003478;
+  }
+
+
+.container2{
+    font-weight: bold;
+  }
+
+  .container3{
+    font-size:18px;
+  }
+
+ion-content{
+    --ion-background-color: #f4f5f8;
+    --ion-text-color: #003478;
+}
+.labels{
+  font-family: Ubuntu;
+  font-style:normal;
+  font-variant: normal;
+  font-weight: 400;
+  }
+
+.button1{
+    font-family: Ubuntu;
+    font-style:normal;
+    font-variant: normal;
+    font-weight: 400;
+    color: #f4f5f8;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    margin-left: 55px;
+}
+
+#tollbar{
+  --background: #003478;
+  --color: #f4f5f8 ;
+  font-family: Ubuntu;
+}
+
+#p1{
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top:10px;
+}
+
+ion-col{
+  height:50px;
+}

@@ -1,0 +1,48 @@
+<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+<ion-header>
+  <ion-toolbar id='tollbar'>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div>
+            <ion-buttons slot="start">
+              <ion-back-button id='backb'
+              text=""
+              icon="arrow-back-outline"
+              size='small'
+              color='light'>
+            </ion-back-button>
+            </ion-buttons> 
+          </div>
+        </ion-col>
+        <ion-col>
+          <div>
+            <p id='p1'>Login</p>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div>
+            
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+  </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+  <h2 class='container container2'>Quase Lá!! </h2>
+<p class='container container3'>Complete os campos com seu usuário e senha para ter acesso ao seu painel: </p>
+<ion-item>
+  <ion-label position="floating" class='labels'>E-mail</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="floating" class='labels'>Senha</ion-label>
+  <ion-input type='password'></ion-input>
+</ion-item>
+<br>
+<br>
+<ion-button class='button1' expand="block" color='ford'  (click)="menu()" >Entrar</ion-button>
+</ion-content>

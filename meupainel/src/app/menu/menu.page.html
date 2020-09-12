@@ -1,0 +1,68 @@
+
+<ion-content id='page' [fullscreen]="true">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+  <div id='div1' class="container">
+    <h3 class='container container2'>Meu Painel </h3>
+  <img src='assets/ford (2).png' width=238px height=183px >
+</div>
+
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <div>
+        <ion-button  shape="round" (click)="Camera()" color='ford' size='large' id='button1' >
+          <ion-icon name="camera-outline"></ion-icon>
+        </ion-button>
+        <p class='pepecamera'>Câmera</p>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <ion-button  shape="round" onclick="window.location.href='/assets/fbr-manual-proprietario-ka-hatch.pdf'" color='ford' size='large' id='button2' >
+          <ion-icon name="construct-outline"></ion-icon>
+        </ion-button>
+        <p class='pepemanual'>Manual</p>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <ion-button  shape="round" (click)="Tutoriais()" color='ford' size='large' id='button3'>
+          <ion-icon name="play-outline"></ion-icon>
+        </ion-button>
+        <p class='pepetutorial'>Tutoriais</p>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <div>
+        <ion-button  shape="round" (click)="Assistencia()" color='ford' size='large' id='button4'>
+          <ion-icon name="call-outline"></ion-icon>
+        </ion-button> 
+        <p class='pepeassistencia'>Assistência</p>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <ion-button  shape="round" (click)="Configuracao()" color='ford' size='large' id='button5'>
+          <ion-icon name="car-sport-outline"></ion-icon>
+        </ion-button>
+        <p class='pepeconfiguracao'>Configurações</p>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <ion-button  shape="round" (click)="Info()" color='ford' size='large' id='button6'>
+          <ion-icon name="information-circle-outline"></ion-icon>
+        </ion-button>
+        <p class='pepeinformacao'>Informações</p>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>
+
+
