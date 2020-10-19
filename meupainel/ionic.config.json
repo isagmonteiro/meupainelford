@@ -1,5 +1,7 @@
 {
   "name": "meupainel",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

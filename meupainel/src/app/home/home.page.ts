@@ -10,11 +10,11 @@ export class HomePage {
 
   constructor(private router: Router) {}
 
-  login(){
+  gologin(){
     //colocar código pra loggar o usuário
     this.router.navigate(['/login']);
   }
-  cadastro(){
+  gocadastro(){
     this.router.navigate(['/cadastro']);
   }
 }
