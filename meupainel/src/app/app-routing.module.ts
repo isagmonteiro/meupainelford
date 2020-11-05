@@ -46,7 +46,15 @@ const routes: Routes = [
   {
     path: 'assistencia',
     loadChildren: () => import('./assistencia/assistencia.module').then( m => m.AssistenciaPageModule)
+  },  {
+    path: 'arrefecimento',
+    loadChildren: () => import('./arrefecimento/arrefecimento.module').then( m => m.ArrefecimentoPageModule)
   },
+  {
+    path: 'prediction',
+    loadChildren: () => import('./prediction/prediction.module').then( m => m.PredictionPageModule)
+  },
+
 ];
 
 @NgModule({

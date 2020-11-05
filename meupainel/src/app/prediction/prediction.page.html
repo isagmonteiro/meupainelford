@@ -1,0 +1,54 @@
+<ion-content id='page'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+  
+<ion-header>
+  <ion-toolbar id='tollbar'>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div>
+            <ion-button fill="null" color="ford" size='medium' icon="arrow-back-outline" (click)="voltar()">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </ion-button>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div>
+            <p id='p1'>Resposta</p>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div>
+
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+  </ion-header>
+  
+  <div>
+    <img id="foto" src="assets/response.png" width="313" height="125">
+    <p color='black' id=p2>Seu carro está com problema no arrefecimento!<br> <br>Como voce deseja prosseguir?</p>
+    
+</div>
+
+
+<ion-grid>
+  <ion-row>
+  
+    <ion-col-md2>
+      
+      <ion-button (click)="Assistencia()" size='medium' color="ford" class="botao">Chamar assistencia</ion-button>
+    
+    </ion-col-md2>
+  
+    <ion-col-md2>
+      <ion-button  (click)="Arrefecimento()" size='medium' color="ford" class="botao">Ver tutorial</ion-button>
+    </ion-col-md2>
+  </ion-row>
+</ion-grid>
+
+
+ 
+</ion-content>

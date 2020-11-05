@@ -11,9 +11,9 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class LoginPage implements OnInit {
   private loading: any;
-  public userLogin: User = {};
-
-  constructor(
+  public userLogin: User = { };
+ 
+  constructor( 
     private router: Router,
     private authService: AuthService,
     private loadingCtrl: LoadingController,
